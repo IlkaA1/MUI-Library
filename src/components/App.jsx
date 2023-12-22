@@ -1,3 +1,5 @@
+import { Button } from "./Button/Button";
+
 export const App = () => {
   return (
     <div
@@ -10,6 +12,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
+      <Button></Button>
       React homework template
     </div>
   );
